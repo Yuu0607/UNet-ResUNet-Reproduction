@@ -1,0 +1,12 @@
+.venv/
+.idea/
+__pycache__/
+*.py[cod]
+*.pth
+*.tar.gz
+*.bak
+.matplotlib/
+resunet_data/
+unet_weight_parts/
+ground_truth_parts/
+train_masks.csv

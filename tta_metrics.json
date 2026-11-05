@@ -1,0 +1,38 @@
+{
+  "dataset": "Carvana",
+  "sample": "carvana_train_image.jpg",
+  "device": "cpu",
+  "baseline": {
+    "dice": 0.9907210600814229,
+    "iou": 0.9816127344947363,
+    "precision": 0.9938622640244007,
+    "recall": 0.9875996497751323,
+    "pixel_accuracy": 0.9967210310218975,
+    "tp": 429753,
+    "fp": 2654,
+    "fn": 5396,
+    "tn": 2017237,
+    "predicted_ratio": 0.17613032781543275,
+    "ground_truth_ratio": 0.17724721389468195,
+    "inference_seconds": 6.5444045000003825
+  },
+  "flip_tta": {
+    "dice": 0.9909051517498236,
+    "iou": 0.9819742450059135,
+    "precision": 0.9938302569377802,
+    "recall": 0.9879972147471303,
+    "pixel_accuracy": 0.9967853884254428,
+    "tp": 429926,
+    "fp": 2669,
+    "fn": 5223,
+    "tn": 2017222,
+    "predicted_ratio": 0.17620690497914493,
+    "ground_truth_ratio": 0.17724721389468195,
+    "inference_seconds": 12.655827699998554
+  },
+  "dice_gain": 0.000184091668400721,
+  "iou_gain": 0.0003615105111771655,
+  "pixels_corrected_by_tta": 400,
+  "pixels_harmed_by_tta": 227,
+  "comparison_image": "D:\\UNet_Reproduction\\tta_comparison.jpg"
+}
